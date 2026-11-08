@@ -17,4 +17,3 @@ collections:
       - {label: "Precio ($)", name: "price", widget: "number"}
       - {label: "Imagen", name: "image", widget: "image"}
       - {label: "Descripción", name: "description", widget: "text"}
-      
