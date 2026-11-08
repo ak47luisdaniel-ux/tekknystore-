@@ -3,7 +3,6 @@ backend:
   repo: ak47luisdaniel-ux/tekknystore-
   branch: main
 
-
 media_folder: "images"
 public_folder: "/images"
 
@@ -15,7 +14,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Nombre del Producto", name: "title", widget: "string"}
-      - {label: "Precio ($)", name: "price", widget: "string"}
+      - {label: "Precio ($)", name: "price", widget: "number"}
       - {label: "Imagen", name: "image", widget: "image"}
       - {label: "Descripción", name: "description", widget: "text"}
       
